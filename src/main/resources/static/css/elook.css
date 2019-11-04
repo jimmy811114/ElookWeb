@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019/11/2, 下午 03:39:51
+    Author     : jimmy
+*/
+
+#MyBlog{
+    margin-top: 0px;
+    margin-right: 5px;
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+    top: 50%;  /*設置垂直位置*/
+    right: -110px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+    background: #F5F5F5;  /*背景顏色*/
+    opacity:0.8; 
+    padding: 10px;
+    border-radius: 10px;  /*圓角*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#MyBlog:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+    right: -10px;
+}
+
+#MyBlog #title{
+    padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}
+
+#MyBlog1{
+    margin-top: 60px;
+    margin-right: 5px;
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+    top: 50%;  /*設置垂直位置*/
+    right: -110px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+    background: #F5F5F5;  /*背景顏色*/
+    opacity:0.8; 
+    padding: 10px;
+    border-radius: 10px;  /*圓角*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#MyBlog1:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+    right: -10px;
+}
+
+#MyBlog1 #title{
+    padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}
+
+#MyBlog2{
+    margin-top: 120px;
+    margin-right: 5px;
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+    top: 50%;  /*設置垂直位置*/
+    right: -110px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+    background: #F5F5F5;  /*背景顏色*/
+    opacity:0.8; 
+    padding: 10px;
+    border-radius: 10px;  /*圓角*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#MyBlog2:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+    right: -10px;
+}
+
+#MyBlog2 #title{
+    padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}
+
+#MyBlog3{
+    margin-top: 180px;
+    margin-right: 5px;
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+    top: 50%;  /*設置垂直位置*/
+    right: -110px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+    background: #F5F5F5;  /*背景顏色*/
+    opacity:0.8; 
+    padding: 10px;
+    border-radius: 10px;  /*圓角*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#MyBlog3:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+    right: -10px;
+}
+
+#MyBlog3 #title{
+    padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}
+
+#MyBlog4{
+    margin-top: -60px;
+    margin-right: 5px;
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+    top: 50%;  /*設置垂直位置*/
+    right: -110px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+    background: #F5F5F5;  /*背景顏色*/
+    opacity:0.8; 
+    padding: 10px;
+    border-radius: 10px;  /*圓角*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#MyBlog4:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+    right: -10px;
+}
+
+#MyBlog4 #title{
+    padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}
+
+.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+.pic img:hover{transform:scale(1.05,1.05);}
+
+#gotop {
+    position:fixed;
+    z-index:90;
+    right:30px;
+    bottom:31px;
+    display:none;
+    width:50px;
+    height:50px;
+    color:#fff;
+    opacity:0.8; 
+    background:#33b5e5;
+    line-height:50px;
+    border-radius:50%;
+    transition:all 0.5s;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+#gotop :hover{
+    opacity:0.8; 
+    background:#33b5e5;
+}
