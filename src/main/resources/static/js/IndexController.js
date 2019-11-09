@@ -33,7 +33,7 @@ function sendMessage() {
     $.post('https://script.google.com/macros/s/AKfycbxX-T2UPsHdLInY1xBygymCysZhEU-dAahaPSVsn733VxjhxtE/exec',
             {msg: msg},
             function (e) {
-                document.getElementById('result').innerHTML = '我們已經收到您的訊息';
+                document.getElementById('result').innerHTML = '感謝您!我們已經收到您的訊息';
                 $("#name").fadeOut();
                 $("#email").fadeOut();
                 $("#message").fadeOut();
@@ -59,3 +59,6 @@ $(function () {
 
 setInterval("showBanner()", "5000");
 
+function changePic(index) {
+    document.getElementById('mainPic').src = "images/pic/" + index + ".jpg";    
+}
