@@ -5,14 +5,6 @@
  */
 var count = 0;
 
-function showBanner() {
-    if (count == images.length) {
-        count = 0;
-    }
-    document.getElementById('banner').style.backgroundImage = images[count];
-    count++;
-}
-
 function sendMessage() {
     var mydate = new Date();
     var t = mydate.toLocaleString();
@@ -57,8 +49,6 @@ $(function () {
     });
 });
 
-setInterval("showBanner()", "5000");
-
 function changePic(index) {
-    document.getElementById('mainPic').src = "images/pic/" + index + ".jpg";    
+    document.getElementById('mainPic').src = "images/pic/" + index + ".jpg";
 }

@@ -32,16 +32,7 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-151925297-1');
-        </script>
-
-        <script>
-            var images = [
-                'url(../images/ad2.png)',
-                'url(../images/ad3.png)',
-                'url(../images/ad1.png)',
-                'url(../images/ad4.png)'
-            ];
-        </script>
+        </script>      
         <link rel="stylesheet" href="css/elook.css" />
         <script src="js/IndexController.js"></script>
     </head>
@@ -49,7 +40,7 @@
 
         <!-- Header -->
         <header id="header">
-            <h1><a href="index.html"><span style="font-size: 1.5em">楊慶祥</span> 官方首頁</a></h1>
+            <h1><a href="index.html"><span style="font-size: 1.5em">慶誼教育</span> 官方首頁</a></h1>
             <nav id="nav">
                 <ul>
                     <li><a href="index.html">首頁</a></li>
@@ -61,9 +52,30 @@
             </nav>
         </header>
 
-        <!-- Banner -->
-        <section id="banner" style="background-image: url(../images/ad1.png)">           
-
+        <section>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/banner1.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banner2.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banner3.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/banner4.png" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)"><</a>
+                <a class="next" onclick="plusSlides(1)">></a>
+                <div style="text-align:center">
+                    <span class="dot1" onclick="currentSlide(1)"></span> 
+                    <span class="dot2" onclick="currentSlide(2)"></span> 
+                    <span class="dot3" onclick="currentSlide(3)"></span> 
+                    <span class="dot4" onclick="currentSlide(4)"></span> 
+                </div>
+            </div>
+            <script src="js/SiderController.js"></script>
         </section>
 
         <!-- video -->
